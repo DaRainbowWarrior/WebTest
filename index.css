@@ -2,9 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(black,purple);
+}
 
 .login--rect {
-    background-color: gray;
+    background-color: rgb(92, 92, 92);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,5 +18,10 @@
 }
 
 input {
-    margin: 5px;
+    margin-bottom: 20px;
 }
+
+.login--rect h1 {
+    font-size: 45px;
+}
+
