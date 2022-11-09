@@ -1,10 +1,9 @@
 * {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
     box-sizing: border-box;
 }
 
 body {
-    background-image: linear-gradient(black,purple);
+    background-image: linear-gradient(#92a8d1,#034f84);
 }
 
 .login--rect {
@@ -13,7 +12,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(92, 92, 92);
+    background-color: #f7cac9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +20,7 @@ body {
     width: 450px;
     height: 350px;
     border-radius: 45px;
+    border: 8px solid #f7786b;
 }
 
 .login--rect input {
@@ -40,6 +40,7 @@ body {
 }
 
 .copyright {
+    font-size: 25px;
     text-align: center;
     margin: auto;
     position: absolute;
