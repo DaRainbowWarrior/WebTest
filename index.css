@@ -4,8 +4,16 @@
 
 
 .login--rect {
+    background-color: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 35%;
+    height: 35%;
+    border-radius: 45px;
+}
+
+input {
+    margin: 5px;
 }
