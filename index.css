@@ -4,13 +4,15 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(black,purple);
 }
 
 .login--rect {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgb(92, 92, 92);
     display: flex;
     justify-content: center;
@@ -35,5 +37,13 @@ body {
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 0px;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
 }
 
